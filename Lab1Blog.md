@@ -1,7 +1,7 @@
 ## Installing VSCode ##
 * Go to the VsCode website [Link](https://code.visualstudio.com/)
 * Download the version based on the System you are on: Mac, Windows, or Linux
-![Image](3.52.23 PM.png)
+![Image](Screen Shot 2023-01-11 at 3.52.23 PM.png)
 
 ## Remotely Connecting ##
 * Open your terminal and run the following command: ssh cs15lwi23zz@ieng6.ucsd.edu  with the zz being specific to your student account
