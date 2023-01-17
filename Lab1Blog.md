@@ -4,7 +4,7 @@
 ![Image](Vscode.png)
 
 * Once you are done with this and you open VsCode the resulting screen should pop up
-
+![Image](Open.png)
 
 
 ## Remotely Connecting ##
