@@ -2,6 +2,7 @@
 * Go to the VsCode website [https://code.visualstudio.com/](https://code.visualstudio.com/)
 * Download the version based on the System you are on: Mac, Windows, or Linux. It should look like the image below
 ![Image](Vscode.png)
+
 * Once you are done with this and you open VsCode the resulting screen should pop up
 
 
