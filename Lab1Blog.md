@@ -13,3 +13,4 @@
 ## Trying some Commands ##
 * Try runing some basic commands now
 * Start by running 
+* * ![Image](Commands.png)
