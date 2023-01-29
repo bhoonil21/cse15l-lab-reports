@@ -12,6 +12,7 @@
 * Once you get this message: Are you sure you want to continue connecting (yes/no/[fingerprint])? -- Type yes
 * The program will then prompt you for your password and after entering it correctly it should show you the screen below
 ![Image](Remote.png)
+* This screen indicates that you must type your password in the slot shown with the cursor
 
 
 ## Trying some Commands ##
