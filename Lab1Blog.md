@@ -9,7 +9,7 @@
 
 ## Remotely Connecting ##
 * Open your terminal and run the following command: `ssh cs15lwi23zz@ieng6.ucsd.edu`  with the zz being specific to your student account
-* Once you get this message: Are you sure you want to continue connecting (yes/no/[fingerprint])? -- Type yes
+* Once you get this message: Are you sure you want to continue connecting (yes/no/[fingerprint])? -- Type `yes`
 * The program will then prompt you for your password and after entering it correctly it should show you the screen below
 ![Image](Remote.png)
 * This screen indicates that you must type your password in the slot shown with the cursor
@@ -18,7 +18,7 @@
 ## Trying some Commands ##
 * Try runing some basic commands now
 * Start by running cd 
-* Run another command such as ls -lat or ls -a
-* If you want to exit out of the server you can use Ctrl-D
+* Run another command such as `ls -lat` or `ls -a`
+* If you want to exit out of the server you can use `Ctrl-D`
 * The results should look something like the image below
 ![Image](Commands.png)
