@@ -1,5 +1,5 @@
 ## part1  ##
-![Image](Lab2PT1.1.png)
+![Image](Lab2 PT 1.1.png)
 ![Image](Lab2PT1.2.png)
 
 
