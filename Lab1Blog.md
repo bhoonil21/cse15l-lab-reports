@@ -17,7 +17,7 @@
 
 ## Trying some Commands ##
 * Try runing some basic commands now
-* Start by running cd 
+* Start by running `cd` 
 * Run another command such as `ls -lat` or `ls -a`
 * If you want to exit out of the server you can use `Ctrl-D`
 * The results should look something like the image below
