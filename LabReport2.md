@@ -1,5 +1,7 @@
 ## part1  ##
 ![Image](Lab2PT1.1.png)
+This code calls the url.getPath() method which gets the path of the url and then it uses .contains to chekc where the = sign is in the 
+
 ![Image](Lab2PT1.2.png)
 
 
