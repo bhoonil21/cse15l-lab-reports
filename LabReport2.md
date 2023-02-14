@@ -14,21 +14,22 @@ Failure inducing output
 ```
 @Test
   public void testAverage() {
-    double[] input1 = {2,2,5, 6,7 };
-    assertEquals(6, ArrayExamples.averageWithoutLowest(input1),0.00000001);
-  }
-```
-
-Non-Failure inducing output
-```
-@Test
-  public void testAverage() {
     double[] input1 = {2,5, 6,7 };
     assertEquals(5, ArrayExamples.averageWithoutLowest(input1),0.00000001);
   }
 ```
 
+NON- Failure inducing output
+```
+@Test
+  public void testAverage() {
+    double[] input1 = {0};
+    assertEquals(0, ArrayExamples.averageWithoutLowest(input1),0.00000001);
+  }
+```
 
+
+![Image](TESTS.png)
 
 
 BEFORE BUG FIX
@@ -66,6 +67,8 @@ static double averageWithoutLowest(double[] arr) {
     return sum / (arr.length - countLowestoccurences);
   }
   ```
+  
+  This fixes the bug because it accounts for multiple lowest instances by adding that extra count in the sum division 
   
   
   
