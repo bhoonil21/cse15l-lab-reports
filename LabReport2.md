@@ -9,6 +9,45 @@ The values of the query are dependent on what the user types in to the query fie
 
 
 ## Part2 ##
+
+Failure inducing output
+```
+@Test
+  public void testAverage() {
+    double[] input1 = {2,2,5, 6,7 };
+    assertEquals(6, ArrayExamples.averageWithoutLowest(input1),0.00000001);
+  }
+```
+
+Non-Failure inducing output
+```
+@Test
+  public void testAverage() {
+    double[] input1 = {2,5, 6,7 };
+    assertEquals(5, ArrayExamples.averageWithoutLowest(input1),0.00000001);
+  }
+```
+
+
+
+
+BEFORE BUG FIX
+```
+  static double averageWithoutLowest(double[] arr) {
+    if(arr.length < 2) { return 0.0; }
+    double lowest = arr[0];
+    for(double num: arr) {
+      if(num < lowest) { lowest = num; }
+    }
+    double sum = 0;
+    for(double num: arr) {
+      if(num != lowest) { sum += num; }
+    }
+    return sum / (arr.length - 1);
+  }
+```
+
+AFTER BUG FIX
 ```
 static double averageWithoutLowest(double[] arr) {
     int countLowestoccurences =0;
@@ -27,6 +66,9 @@ static double averageWithoutLowest(double[] arr) {
     return sum / (arr.length - countLowestoccurences);
   }
   ```
+  
+  
+  
   
  ## Part 3##
  
