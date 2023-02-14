@@ -9,7 +9,8 @@ The values of the query are dependent on what the user types in to the query fie
 
 
 ## Part2 ##
-`static double averageWithoutLowest(double[] arr) {
+```
+static double averageWithoutLowest(double[] arr) {
     int countLowestoccurences =0;
     if(arr.length < 2) { return 0.0; }
     double lowest = arr[0];
@@ -24,7 +25,8 @@ The values of the query are dependent on what the user types in to the query fie
       }
     }
     return sum / (arr.length - countLowestoccurences);
-  }`
+  }
+  ```
   
  ## Part 3##
  
