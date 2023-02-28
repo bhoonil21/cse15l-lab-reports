@@ -1,4 +1,10 @@
 
+I used
+https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
+and ChatGpt -- with the prompt generate examples of using the find command
+
+Examples of 1 focus on using find with the size argument where they check if files under that size exist
+
 Example 1.1
 ```
 [cs15lwi23acq@ieng6-203]:skill-demo1-data:62$ find written_2/ . -size +1M
@@ -14,7 +20,7 @@ Example 1.2
 ```
 
 
-
+Examples of 2 search files by the specific name 
 
 Example 2.1
 ```
@@ -30,6 +36,8 @@ written_2/travel_guides/berlitz2/Poland-History.txt
 ./written_2/travel_guides/berlitz2/Poland-History.txt
 ```
 
+
+Examples of 3 search using find different filetypes. For example 3.1 it searches directorys cause of type d and for example 3.2 it searches files cause of f
 
 Example 3.1
 ```
@@ -558,6 +566,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
 ./written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt 
 ```
 
+Examples of 4 find whether files have been modified after a certain time frame. The first onec searches if they have been modified after 5 mins whereas the 2nd example searches for after 100 mins
 
 Example 4.1
 ```
